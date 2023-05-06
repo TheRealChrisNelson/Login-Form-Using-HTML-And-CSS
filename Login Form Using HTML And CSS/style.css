@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #dfe9f5;
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 0 1rem 0;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-size: 2rem;
+    color: #07001f;
+}
+p{
+    margin-bottom: 1.7rem;
+}
+form input{
+    width: 85%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+}
+.recover{
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 0.2rem 1.7rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #07001f;
+}
+button{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 85%;
+    background: rgb(71, 105, 255);
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(122, 30, 30, 0.767);
+}
+.or{
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+.icons i{
+    color: #07001f;
+    padding: 00.8rem 1.5rem;
+    border-radius: 10px;
+    margin-left: .9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid #07001f;
+}
+.icons i:hover{
+    color: #fff; !important;
+    background: #07001f;
+    transition: 1s;
+}
+.icons i:first-child{
+    color: blue;
+}
+.icons i:nth-child(2){
+    color: green;
+}
+.not-member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+}
+.not-member a{
+    color: tomato;
+    text-decoration: none;
+}
+.not-member a:hover{
+    text-decoration: underline
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
